@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="100"
+        android:text="ARMA TU FRASE"
+        android:id="@+id/texViewFrase"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:background="#AC4A4A"
+        android:textColor="#EBD3D3"
+        android:textStyle="bold"
+        android:autoSizeTextType="uniform"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:hint="Primera mitad"
+        android:layout_weight="50"
+        android:id="@+id/editTextPrimeraMitad"
+        android:inputType="textCapSentences"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:hint="Segunda mitad"
+        android:layout_weight="50"
+        android:id="@+id/editTextSegundaMitad"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_weight="100"
+        android:text="Ahora Juntos"
+        android:id="@+id/buttonConcatenar"/>
+
+
+
+</LinearLayout>
+
+
+
+
